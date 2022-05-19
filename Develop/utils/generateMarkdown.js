@@ -15,8 +15,7 @@ function renderLicenseBadge(license) {
   }
 };
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// returns website for chosen license, if no license return empty string
 function renderLicenseLink(license) {
   if (license === 'GNU GPLv3') {
     return `[${license}](https://choosealicense.com/licenses/gpl-3.0/)`;
@@ -33,8 +32,7 @@ function renderLicenseLink(license) {
   }
 };
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// if there is a license selected then return a license section
 function renderLicenseSection(license) {
   if (license === 'Unlicensed') {
     return '';
@@ -43,6 +41,14 @@ function renderLicenseSection(license) {
   ## License 
   This application is covered by ${renderLicenseLink(license)}
   `;
+  }
+}
+
+function renderLicenseTOC(license) {
+  if (license === 'Unlicensed') {
+    return '';
+  } else {
+    return `* [License](#license)`
   }
 }
 
@@ -60,8 +66,8 @@ function generateMarkdown(data) {
   * [Usage](#usage)
   * [Contribution](#contribution)
   * [Test](#test)
-  * [License](#license)
   * [Questions](#questions)
+  ${renderLicenseTOC(data.license)}
   
   ## Installation
   ${data.install}
@@ -78,9 +84,10 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data.license)}
 
   ## Questions
-  If you have any questions or issues please contact me [here](${data.email}). </br>
+  If you have any questions or issues please contact me [here](mailto:${data.email}). </br>
   If you're interested in seeing more from me you can visit my [GitHub Page](http://github.com/${data.username}).
 `;
 };
 
+// links code to index.js 
 module.exports = generateMarkdown;

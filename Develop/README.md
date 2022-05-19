@@ -1,34 +1,35 @@
 
-  # ReadMe Generator
-  ![](https://img.shields.io/badge/License-MIT-blue)
+  # Project Name
+  ![](https://img.shields.io/badge/License-Apache%202.0-blue)
 
   ## Description
-  Application made to save time when creating readme markdown files for github projects.
+  description text
 
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contribution](#contribution)
   * [Test](#test)
-  * [License](#license)
   * [Questions](#questions)
+  * [License](#license)
   
   ## Installation
-  To install this application, clone the repo then type 'npm i' inside of the root directories terminal.
+  installation guide text
   
   ## Usage
-  This project is used for creating professional readme files for projects
+  usage text
 
   ## Contribution
-  andrewfaugno
+  contribution text
 
   ## Test
-  'npm test'
+  test instructions
 
   
   ## License 
-  This application is covered by [MIT](https://choosealicense.com/licenses/mit/)
+  This application is covered by [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/)
   
 
   ## Questions
-  If you have any questions or issues please contact me [here](andrewfaugno825@gmail.com). If you're interested in seeing more from me you can visit my [GitHub Page](http://github.com/andrewfaugno).
+  If you have any questions or issues please contact me [here](mailto:github). </br>
+  If you're interested in seeing more from me you can visit my [GitHub Page](http://github.com/octocat).
