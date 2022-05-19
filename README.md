@@ -16,7 +16,8 @@
   Clone to desired location, open terminal in root of directory, then type 'npm i' to download dependencies.
   
   ## Usage
-  To use this project, open terminal in root directory and type 'node index', then answer prompts.
+  To use this project, open terminal in root directory and type 'node index', then answer prompts. </br>
+  View video walkthrough guide [here](https://drive.google.com/file/d/1xTk-VI6XuSS9VdFV6Et5jPX_j7UyekO3/view).
 
   ## Contribution
   
