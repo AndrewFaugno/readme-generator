@@ -117,7 +117,7 @@ userPrompt()
     .then(projectData => {
         const readmeMarkdown = generateMarkdown(projectData);
 
-        fs.writeFile('README.md', readmeMarkdown, err => {
+        fs.writeFile('createdREADEME.md', readmeMarkdown, err => {
             if (err) throw err;
 
             console.log('Readme successfully created!');

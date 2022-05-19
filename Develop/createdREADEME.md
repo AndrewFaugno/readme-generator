@@ -1,9 +1,9 @@
 
-  # Project Name
+  # project name
   ![](https://img.shields.io/badge/License-Apache%202.0-blue)
 
   ## Description
-  description text
+  description of project
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,16 +14,16 @@
   * [License](#license)
   
   ## Installation
-  installation guide text
+  guide for installing
   
   ## Usage
-  usage text
+  steps to use project
 
   ## Contribution
-  contribution text
+  contribution guidelines
 
   ## Test
-  test instructions
+  instructions
 
   
   ## License 
@@ -31,5 +31,5 @@
   
 
   ## Questions
-  If you have any questions or issues please contact me [here](mailto:github). </br>
-  If you're interested in seeing more from me you can visit my [GitHub Page](http://github.com/octocat).
+  If you have any questions or issues please contact me [here](mailto:email). </br>
+  If you're interested in seeing more from me you can visit my [GitHub Page](http://github.com/Andrewfaugno).
