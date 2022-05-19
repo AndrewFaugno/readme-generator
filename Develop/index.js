@@ -63,5 +63,5 @@ userPrompt()
             if (err) throw err;
 
             console.log('Readme successfully created!');
-        })
-    })
+        });
+    });
