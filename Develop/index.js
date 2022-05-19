@@ -50,8 +50,7 @@ const userPrompt = () => {
             type: 'list',
             name: 'license',
             message: 'Select a license to use:',
-            choices: ['GNU GPLv3', 'Mozilla Public License 2.0', 'Apache 2.0', 'MIT', 'Boost Software 1.0', 'No license'],
-            Default: 'No license'
+            choices: ['GNU GPLv3', 'Mozilla Public 2.0', 'Apache 2.0', 'MIT', 'Boost Software 1.0', 'Unlicensed'],
         }
     ]);
 };
